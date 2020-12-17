@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /
+  port: 8080
+nacos:
+  config:
+    server-addr: http://106.14.120.172/nacos
+    data-id: springboot-dev
+    namespace: dev
+    bootstrap:
+      enable: true
+    type: yaml
+    username: nacos
+    password: nacos123!
